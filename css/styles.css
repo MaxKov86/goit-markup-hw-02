@@ -1,0 +1,185 @@
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+/* основной цвет текста: #212121; */
+/* вторичный цвет текста: #757575; */
+/* белый: #FFFFFF; */
+/* белый: rgba(255, 255, 255, 0.6); */
+/* синий цвет: #2196F3; */
+/* бекграунд 1 секция герой: 2F303A; */
+/* бекграунд наша команда: #F5F4FA; */
+/* бекграунд подвал: #2F303A; */
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #ffffff;
+  color: #212121;
+}
+
+header {
+  font-style: normal;
+}
+/* Logo */
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.part-logo {
+  color: #2196f3;
+}
+/* Навигация */
+.site-nav a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+/* Контакты */
+.contact-nav a {
+  color: #757575;
+  text-decoration: none;
+}
+.contact-nav a:hover,
+.contact-nav a:focus {
+  color: #2196f3;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+button {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+}
+/* Особенности */
+.decision-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.decitsion-text {
+  color: #757575;
+}
+/* Чем занимаемся */
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name {
+  background-color: #ffffff;
+}
+.name p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.footer p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.filters-title p {
+  color: #757575;
+}
