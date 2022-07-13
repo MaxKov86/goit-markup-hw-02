@@ -15,7 +15,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-color:var(--background-color)
+  background-color: var(--background-color);
   color: var(--primary-text-color);
 }
 
@@ -45,7 +45,7 @@ header {
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color:var(--hover-color);
+  color: var(--hover-color);
 }
 /* Контакты */
 .contact-nav a {
@@ -118,7 +118,7 @@ button:focus {
 }
 /* Команда */
 .team {
-  background-color:var(--second-background-color);
+  background-color: var(--second-background-color);
 }
 .team-title {
   font-weight: 700;
@@ -198,5 +198,5 @@ a {
   text-decoration: none;
 }
 h3 {
-  color:var(--primary-text-color)
+  color: var(--primary-text-color);
 }
