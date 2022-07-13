@@ -13,15 +13,21 @@
 :root {
   --primary-text-color: #212121;
   --second-text-color: #757575;
+  --hover-color: #2196f3;
+  --background-color: #e5e5e5;
+  --header-background-color: #ffffff;
+  --third-background-color: #2f303a;
+  --second-background-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-color: #ffffff;
-  color: #212121;
+  background-color:var(--background-color)
+  color: var(--primary-text-color);
 }
 
 header {
+  background-color: var(--header-background-color);
   font-style: normal;
 }
 /* Logo */
@@ -37,31 +43,34 @@ header {
 }
 /* Навигация */
 .site-nav a {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 /* Контакты */
 .contact-nav a {
-  color: #757575;
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .contact-nav a:hover,
 .contact-nav a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 /* Герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--third-background-color);
   color: #ffffff;
 }
 .hero-title {
@@ -87,6 +96,10 @@ button {
   line-height: 1.88;
   cursor: pointer;
 }
+button:hover,
+button:focus {
+  background-color: #188ce8;
+}
 /* Особенности */
 .decision-title {
   font-weight: 700;
@@ -96,7 +109,11 @@ button {
   text-transform: uppercase;
 }
 .decitsion-text {
-  color: #757575;
+  color: var(--second-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* Чем занимаемся */
 .about-title {
@@ -121,7 +138,7 @@ button {
   background-color: #ffffff;
 }
 .name p {
-  color: #757575;
+  color: var(--second-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -137,7 +154,7 @@ button {
 }
 /* Подвал */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--third-background-color);
 }
 .footer-logo {
   color: #ffffff;
@@ -168,18 +185,25 @@ button {
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .button {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--second-background-color);
+  color: var(--primary-text-color);
 }
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
+  background-color: var(--hover-color);
   color: #ffffff;
 }
 
 .filters-title p {
-  color: #757575;
+  color: var(--second-text-color);
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+h3 {
+  color:var(--primary-text-color)
 }
