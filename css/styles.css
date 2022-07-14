@@ -1,5 +1,7 @@
 .list {
   list-style: none;
+}
+.link {
   text-decoration: none;
 }
 
@@ -11,56 +13,62 @@
   --header-background-color: #ffffff;
   --third-background-color: #2f303a;
   --second-background-color: #f5f4fa;
+  --accent-color: #2196f3;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  background-color: var(--background-color);
   color: var(--primary-text-color);
 }
 
-header {
+.header {
   background-color: var(--header-background-color);
   font-style: normal;
 }
 /* Logo */
-.logo {
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
+.header-logo {
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
-.part-logo {
+.header-part-logo {
   color: #2196f3;
 }
 /* Навигация */
-.site-nav a {
+.header-nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--hover-color);
 }
+.current {
+  color: var(--accent-color);
+}
 /* Контакты */
-.contact-nav a {
-  color: var(--second-text-color);
+.header-contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--second-text-color);
 }
 
-.contact-nav a:hover,
-.contact-nav a:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--hover-color);
 }
+
 /* Герой */
 .hero {
   background-color: var(--third-background-color);
@@ -158,6 +166,9 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+.footer-part-logo {
+  color: #2196f3;
+}
 .footer p {
   font-family: 'Roboto';
   font-style: normal;
@@ -180,23 +191,24 @@ button:focus {
 .footer-link:focus {
   color: var(--hover-color);
 }
-.button {
+
+.filters-button {
   background-color: var(--second-background-color);
   color: var(--primary-text-color);
 }
-.button:hover,
-.button:focus {
+.filters-button:hover,
+.filters-button:focus {
   background-color: var(--hover-color);
   color: #ffffff;
 }
 
-.filters-title p {
+.filters-text {
   color: var(--second-text-color);
 }
-a {
+.filters-link {
   list-style: none;
   text-decoration: none;
 }
-h3 {
+.filters-title {
   color: var(--primary-text-color);
 }
